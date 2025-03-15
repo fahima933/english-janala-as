@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Janala</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <!-- star navber -->
+        <nav class="flex justify-between bg-[#C6BDBD] p-5 " >              
+                <div class="flex items-center ml-8 mt-2">
+                    <h3 class="font-semibold">English</h3>
+                    <div>
+                        <img src="assets/logo.png" alt="">
+                    </div>
+                    <h3 class="font-semibold">জানালা</h3>
+                </div>
+        
+                
+                <div class="flex  gap-4 mr-8 mt-2">
+                   <div class="w-[102px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]" >
+                    
+                        <img  src="assets/fa-circle-question.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-0"  alt="">
+                        <button class= "font-semibold text-[#422AD5] group-hover:text-white">FAQ</button>
+                    
+                   </div>
+                    <div class="w-[102px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]">
+                        
+                            <img src="assets/fa-book-open.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-100"  alt="">
+                            <buttom  class= "font-semibold text-[#422AD5] group-hover:text-white">Learn</button>                      
+                    </div>
+
+                    <div class="w-[102px] h-[40px] group flex items-center gap-2 px-2 py-2 border-2 border-[#422AD5] rounded-lg transition-all duration-300 hover:bg-[#422AD5]">
+                        <img src="assets/fa-arrow-right-from-bracket.png" class=" transition-all duration-300 group-hover:invert group-hover:brightness-0 group-hover:saturate-100" alt="">
+                        <button class= "font-semibold text-[#422AD5] group-hover:text-white">Logout</button>
+                    </div>
+    
+                </div>
+        
+        </nav>
+
+        <!-- end navber -->
+         <!-- banner section start -->
+
+        <section class="gap-20 mt-10  flex items-center justify-center">
+            <div >
+                <h1 class="font-bold text-[48px]"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
+                <h3 class="font-bold text-[#646469] text-[14px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা <br> আপনার  দক্ষতা বাড়াতে  চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br> যাবে অন্য একটি Level এ</h3>
+            
+               
+                <div class="border mt-7 flex -2 p-2  rounded-sm"  ><input class=" w-[250px] h-[40px]"  type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="border mt-4 p-2 flex rounded-sm "><input class=" w-[250px] h-[40px]" type="password" placeholder="Enter Login Code(123456)"></div>
+                <button class="btn w-[120px]  h-[40px] bg-[#3D26C7] text-white rounded-md flex items-center mt-4 p-4 ">Get Started</button>
+                </div>
+                <div>
+                <img class="w-[600px] h-[599px] mr-10 ml-[160px]" src="assets/hero-student.png" alt="">
+            </div>
+            
+         </section>
+         <!-- banner section end  --> 
+    </header>
+
+    <main>
+        <!-- question part srart -->
+        
+            <h1 class="text-4xl items-center justify-center flex font-bold mb-10 "><span class="text-[#00BCFF]">Frequently</span> Asked Questions</h1>
+        <div class="relative border p-4 w-[1800px] ml-[50px] rounded-lg shadow-md bg-white">
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+            <p class="text-gray-800">1.What is the the difference between var, let, and const?</p>
+            <p class="text-gray-800 mt-2 hidden secondPara">Var has function/global scope, let is block-scoped and reassigned, while const is block-scoped and cannot be reassigned.</p>
+        </div>
+    
+        <div class="relative border p-4 w-[1800px] ml-[50px] rounded-lg shadow-md bg-white">
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+            <p class="text-gray-800">2.What is  the difference between map(), forEach(), and filter()?</p>
+            <p class="text-gray-800 mt-2 hidden secondPara">Map() returns a new array, forEach() executes a function on each element without returning anything, and filter() returns a new array with elements that meet a condition.</p>
+        </div>
+    
+        <div class="relative border p-4 w-[1800px] ml-[50px] rounded-lg shadow-md bg-white">
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+            <p class="text-gray-800">3.What are   arrow functions and how they are different from regular functions?</p>
+            <p class="text-gray-800 mt-2 hidden secondPara">Arrow functions are a shorter syntax for writing functions, and they don't have their own this, unlike regular functions, which do.</p>
+        </div>
+    
+        <div class="relative border p-4 w-[1800px] ml-[50px] rounded-lg shadow-md bg-white">
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+            <p class="text-gray-800">4.how JavaScript Promises work?</p>
+            <p class="text-gray-800 mt-2 hidden secondPara">JavaScript Promises represent asynchronous operations and allow handling of success or failure using .then() for success and .catch() for errors</p>
+        </div>
+    
+        <div class="relative border p-4 w-[1800px] ml-[50px] rounded-lg shadow-md bg-white">
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 incrementBtn ">+</button>
+            <button class="absolute top-2 right-2 p-2 w-8 h-8 decrementBtn  hidden">−</button>
+            <p class="text-gray-800">5.how closures work in JavaScript?</p>
+            <p class="text-gray-800 mt-2 hidden secondPara">Closures in JavaScript occur when a function retains access to its lexical scope, even after the outer function has finished executing.</p>
+        </div>
+
+        <!-- question part end -->
+
+    </main>
+    <footer>
+       <div class="flex justify-between">
+        <div>
+            <div class="flex mt-[70px]">
+               <h2 class="font-bold mt-2">English</h2>
+               <img src="assets/logo.png" alt="">
+               <h2 class="font-bold mt-2">জানালা</h2>
+            </div>
+               <h3 class="font-semibold mt-4">ইংরেজি শিখুন সহজে</h3>
+               <p class="mt-4">Providing ED-Tech Applications since 2025</p>
+        </div>
+            <div class="mt-[130px]">
+                <p>Follow us</p>
+              <div class="flex mt-1 gap-3">
+                <img src="assets/fb-thumb.png" alt="">
+                <img src="assets/youtube-thumb.png" alt="">
+                <img src="assets/instagram-thumb.png" alt="">
+                <img src="assets/github-thumb.png" alt="">
+              </div>
+            <div>
+       </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
